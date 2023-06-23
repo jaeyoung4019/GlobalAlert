@@ -89,7 +89,9 @@ export default GlobalAlert;
 
 ```
 
-alert Css 구성요소는 생성하기 귀찮아서 Chakra UI 로 대체하였습니다.
+alert Css 구성요소는 Chakra UI 로 대체하였습니다.
+취소 버튼은 아직 사용하지 않아서 생성하지 않았으나 구성상 필요한 부분이 있어서 냅두었습니다! 리팩토링을 추 후 할 예정입니다
+children 을 통해 유동적인 Component 를 삽입하여 처리할 수 있도록! 
 
 Redux
 ```ts
